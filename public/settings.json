@@ -1,6 +1,6 @@
 {
     "FLAIR_AWS_PORT": 8000,
-    "FLAIR_SERVER_URL": "http://localhost:7071",
+    "FLAIR_SERVER_URL": "https://bl-socket-server.herokuapp.com",
     "SERVER_TIMEOUT_MS": 20000,
     "CRM_TIMEOUT_MS": 10000,
     "BASE_CRM_URL": "./BLCRM.html",
