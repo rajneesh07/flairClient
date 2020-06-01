@@ -87,6 +87,7 @@ export default {
       const index = state.chatIds.indexOf(chatId);
       if (index > -1) {
         state.chatSessions.splice(index, 1);
+        state.chatIds.splice(index,1);
       } else {
         console.log("no chat session found for id=" + chatId);
       }

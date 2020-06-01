@@ -62,8 +62,8 @@
           <dd class="col">Hold Count</dd>
           <dd class="col">1</dd>
         </dl>
-        <button @click="pauseLoginTimer">Pause</button>
-        <button @click="resumeLoginTimer">Resume</button>
+        <!--<button @click="pauseLoginTimer">Pause</button>
+        <button @click="resumeLoginTimer">Resume</button>-->
       </mdb-container>
     </template>
   </widget>

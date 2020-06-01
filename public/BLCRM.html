@@ -1,0 +1,296 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0129)https://customercare.banglalink.net/auth/login/ -->
+<!DOCTYPE html><HTML lang="en-us"><HEAD><META content="IE=9.0000" 
+http-equiv="X-UA-Compatible">
+     
+<META http-equiv="X-UA-Compatible" content="IE=9">     <TITLE>    CSR Toolbox -  
+</TITLE>     <LINK href="/static/img/main_logo.png" rel="shortcut icon" type="image/png" 
+alt="Marilyn favicon">     
+<META charset="utf-8">     
+<META name="robots" content="NONE,NOARCHIVE">     <!-- STYLESHEETS -->           
+  <LINK href="CSR%20Toolbox%20-_files/jquery-ui.min.css" rel="stylesheet" type="text/css" 
+media="screen">         <LINK href="CSR%20Toolbox%20-_files/screen.css" rel="stylesheet" 
+type="text/css" media="screen">                     <LINK href="CSR%20Toolbox%20-_files/output.css" 
+rel="stylesheet" type="text/css" media="screen">                 <LINK href="CSR%20Toolbox%20-_files/jquery-autocomplete.css" 
+rel="stylesheet" type="text/css" media="screen">         <LINK href="/static/css/invoices-newtlet.css" 
+type="text/css" media="screen">         <LINK href="CSR%20Toolbox%20-_files/select2.min.css" 
+rel="stylesheet">                 <!-- EXTRASTYLES -->         <LINK href="CSR%20Toolbox%20-_files/admin.css" 
+rel="stylesheet" type="text/css">     <LINK href="CSR%20Toolbox%20-_files/font-awesome.min.css" 
+rel="stylesheet" type="text/css">     
+<SCRIPT src="CSR%20Toolbox%20-_files/common.js" type="text/javascript"></SCRIPT>
+     
+<SCRIPT src="CSR%20Toolbox%20-_files/html5.js" type="text/javascript"></SCRIPT>
+     <!--[if IE 8]>
+    <link href="/static/css/ie8.css" rel="stylesheet" type="text/css" />
+    <![endif]--><!--[if lt IE 8]>
+    <link href="/static/css/ie7.css" rel="stylesheet" type="text/css" />
+    <![endif]--><!--[if lt IE 11]><LINK 
+href="CSR%20Toolbox%20-_files/ie11.css" rel="stylesheet" type="text/css">     <![endif]--><!-- JAVASCRIPTS --> 
+        
+<SCRIPT src="CSR%20Toolbox%20-_files/webstomp.min.js" type="text/javascript"></SCRIPT>
+     
+<SCRIPT type="text/javascript">window.__admin_media_prefix__ = "/static/grappelli/";</SCRIPT>
+     
+<SCRIPT type="text/javascript" charset="utf-8">
+            // GLOBALS
+            var grappelli = {},
+                ADMIN_URL = "/admin/",
+                MODEL_URL_ARRAY = {"1": {"pk": 1, "app": "auth", "model": "permission"}, "2": {"pk": 2, "app": "auth", "model": "group"}, "3": {"pk": 3, "app": "contenttypes", "model": "contenttype"}, "4": {"pk": 4, "app": "sessions", "model": "session"}, "5": {"pk": 5, "app": "sites", "model": "site"}, "6": {"pk": 6, "app": "admin", "model": "logentry"}, "7": {"pk": 7, "app": "common", "model": "paymenttransaction"}, "8": {"pk": 8, "app": "translation", "model": "translation"}, "9": {"pk": 9, "app": "fourpane", "model": "memo"}, "10": {"pk": 10, "app": "fourpane", "model": "memoacknowledge"}, "11": {"pk": 11, "app": "fourpane", "model": "memochangedata"}, "12": {"pk": 12, "app": "fourpane", "model": "memoflowdata"}, "13": {"pk": 13, "app": "fourpane", "model": "request"}, "14": {"pk": 14, "app": "fourpane", "model": "memoactionstate"}, "15": {"pk": 15, "app": "livesettings", "model": "option"}, "16": {"pk": 16, "app": "livesettings", "model": "optioncategory"}, "17": {"pk": 17, "app": "counter", "model": "counter"}, "18": {"pk": 18, "app": "dwhtools", "model": "dwhdumphistory"}, "19": {"pk": 19, "app": "dwhtools", "model": "dwhdumptablestructure"}, "20": {"pk": 20, "app": "dwhtools", "model": "medalliadwhdumphistory"}, "21": {"pk": 21, "app": "deltadump", "model": "deltadump"}, "22": {"pk": 22, "app": "notifications", "model": "notification"}, "23": {"pk": 23, "app": "notifications", "model": "knowledgebasedsms"}, "24": {"pk": 24, "app": "salesmen", "model": "chain"}, "25": {"pk": 25, "app": "salesmen", "model": "channel"}, "26": {"pk": 26, "app": "salesmen", "model": "reseller"}, "27": {"pk": 27, "app": "salesmen", "model": "salesman"}, "28": {"pk": 28, "app": "salesmen", "model": "ordersoption"}, "29": {"pk": 29, "app": "telepin", "model": "telepinregion"}, "30": {"pk": 30, "app": "authentication", "model": "user"}, "31": {"pk": 31, "app": "authentication", "model": "enduser"}, "32": {"pk": 32, "app": "authentication", "model": "groupsettings"}, "33": {"pk": 33, "app": "payments", "model": "acidetails"}, "34": {"pk": 34, "app": "payments", "model": "acipayment"}, "35": {"pk": 35, "app": "payments", "model": "basepayment"}, "36": {"pk": 36, "app": "payments", "model": "ipaypayment"}, "37": {"pk": 37, "app": "payments", "model": "msisdnpayment"}, "38": {"pk": 38, "app": "payments", "model": "orderpayment"}, "39": {"pk": 39, "app": "payments", "model": "payment"}, "40": {"pk": 40, "app": "payments", "model": "paymentstatuslog"}, "41": {"pk": 41, "app": "payments", "model": "sslcommerzpayment"}, "42": {"pk": 42, "app": "ss_admin", "model": "banner"}, "43": {"pk": 43, "app": "external_tools", "model": "ecaretool"}, "44": {"pk": 44, "app": "external_tools", "model": "externaltool"}, "45": {"pk": 45, "app": "postcodes", "model": "country"}, "46": {"pk": 46, "app": "postcodes", "model": "postaldistrict"}, "47": {"pk": 47, "app": "billing", "model": "account"}, "48": {"pk": 48, "app": "billing", "model": "accountrule"}, "49": {"pk": 49, "app": "billing", "model": "billingcallcase"}, "50": {"pk": 50, "app": "billing", "model": "billitem"}, "51": {"pk": 51, "app": "billing", "model": "billitemgroup"}, "52": {"pk": 52, "app": "billing", "model": "feeitem"}, "53": {"pk": 53, "app": "billing", "model": "invoicesection"}, "54": {"pk": 54, "app": "billing", "model": "invoicinggroup"}, "55": {"pk": 55, "app": "billing", "model": "pricelist"}, "56": {"pk": 56, "app": "billing", "model": "profitcenter"}, "57": {"pk": 57, "app": "billing", "model": "rateplan"}, "58": {"pk": 58, "app": "billing", "model": "rateplanpricelists"}, "59": {"pk": 59, "app": "billing", "model": "singlefeeevent"}, "60": {"pk": 60, "app": "billing", "model": "subscriptiontypeprofitcenter"}, "61": {"pk": 61, "app": "billing", "model": "tariff"}, "62": {"pk": 62, "app": "billing", "model": "tarifftime"}, "63": {"pk": 63, "app": "billing", "model": "topup"}, "64": {"pk": 64, "app": "billing", "model": "upfrontfee"}, "65": {"pk": 65, "app": "offers", "model": "channeldiscountplan"}, "66": {"pk": 66, "app": "offers", "model": "contractoffer"}, "67": {"pk": 67, "app": "offers", "model": "discounteddeviceoffer"}, "68": {"pk": 68, "app": "offers", "model": "discountplan"}, "69": {"pk": 69, "app": "offers", "model": "discountplanrate"}, "70": {"pk": 70, "app": "offers", "model": "itemoffer"}, "71": {"pk": 71, "app": "offers", "model": "offer"}, "72": {"pk": 72, "app": "offers", "model": "offertype"}, "73": {"pk": 73, "app": "offers", "model": "packageoffer"}, "74": {"pk": 74, "app": "offers", "model": "pricecategories"}, "75": {"pk": 75, "app": "offers", "model": "promocampaign"}, "76": {"pk": 76, "app": "offers", "model": "promotion"}, "77": {"pk": 77, "app": "offers", "model": "simcardoffer"}, "78": {"pk": 78, "app": "offers", "model": "subscriptionoffer"}, "79": {"pk": 79, "app": "offers", "model": "accessoryoffer"}, "80": {"pk": 80, "app": "products", "model": "alternatesubscriptionsuggestions"}, "81": {"pk": 81, "app": "products", "model": "articlemodel"}, "82": {"pk": 82, "app": "products", "model": "barring"}, "83": {"pk": 83, "app": "products", "model": "barringlevel"}, "84": {"pk": 84, "app": "products", "model": "callforward"}, "85": {"pk": 85, "app": "products", "model": "connectiontype"}, "86": {"pk": 86, "app": "products", "model": "contracttype"}, "87": {"pk": 87, "app": "products", "model": "dedicatedaccount"}, "88": {"pk": 88, "app": "products", "model": "feemodel"}, "89": {"pk": 89, "app": "products", "model": "itemcolor"}, "90": {"pk": 90, "app": "products", "model": "itemfeature"}, "91": {"pk": 91, "app": "products", "model": "itemimage"}, "92": {"pk": 92, "app": "products", "model": "itemmanufacturer"}, "93": {"pk": 93, "app": "products", "model": "itemmodel"}, "94": {"pk": 94, "app": "products", "model": "itemvariant"}, "95": {"pk": 95, "app": "products", "model": "networkprofile"}, "96": {"pk": 96, "app": "products", "model": "networkprofileservice"}, "97": {"pk": 97, "app": "products", "model": "networkservice"}, "98": {"pk": 98, "app": "products", "model": "networkservicegroup"}, "99": {"pk": 99, "app": "products", "model": "optiongroup"}, "100": {"pk": 100, "app": "products", "model": "package"}, "101": {"pk": 101, "app": "products", "model": "packagemessagemanagerconfiguration"}, "102": {"pk": 102, "app": "products", "model": "packagerelation"}, "103": {"pk": 103, "app": "products", "model": "packageservice"}, "104": {"pk": 104, "app": "products", "model": "packagetag"}, "105": {"pk": 105, "app": "products", "model": "periodicaccountmanagementinformationlist"}, "106": {"pk": 106, "app": "products", "model": "prepaidoffer"}, "107": {"pk": 107, "app": "products", "model": "productfamily"}, "108": {"pk": 108, "app": "products", "model": "provisioningparameter"}, "109": {"pk": 109, "app": "products", "model": "provisioningparametervalue"}, "110": {"pk": 110, "app": "products", "model": "rechargecard"}, "111": {"pk": 111, "app": "products", "model": "salescategory"}, "112": {"pk": 112, "app": "products", "model": "service"}, "113": {"pk": 113, "app": "products", "model": "serviceattribute"}, "114": {"pk": 114, "app": "products", "model": "servicechannel"}, "115": {"pk": 115, "app": "products", "model": "serviceclass"}, "116": {"pk": 116, "app": "products", "model": "simcard"}, "117": {"pk": 117, "app": "products", "model": "simcardcombination"}, "118": {"pk": 118, "app": "products", "model": "simmanufacturer"}, "119": {"pk": 119, "app": "products", "model": "subscriptiontype"}, "120": {"pk": 120, "app": "products", "model": "subscriptiontyperestrictions"}, "121": {"pk": 121, "app": "products", "model": "subscriptiontypesuggestions"}, "122": {"pk": 122, "app": "products", "model": "trafficbundle"}, "123": {"pk": 123, "app": "products", "model": "trafficbundledestination"}, "124": {"pk": 124, "app": "products", "model": "trafficbundleprovisioningprofile"}, "125": {"pk": 125, "app": "products", "model": "trafficbundletype"}, "126": {"pk": 126, "app": "products", "model": "subscriptioncategory"}, "127": {"pk": 127, "app": "products", "model": "loancategory"}, "128": {"pk": 128, "app": "products", "model": "accessorymodel"}, "129": {"pk": 129, "app": "products", "model": "accessoryvariant"}, "130": {"pk": 130, "app": "products", "model": "devicemodel"}, "131": {"pk": 131, "app": "products", "model": "devicevariant"}, "132": {"pk": 132, "app": "products", "model": "nonrecurrentpackage"}, "133": {"pk": 133, "app": "products", "model": "recurrentpackage"}, "134": {"pk": 134, "app": "products", "model": "topuppackage"}, "135": {"pk": 135, "app": "companies", "model": "address"}, "136": {"pk": 136, "app": "companies", "model": "closedusergroup"}, "137": {"pk": 137, "app": "companies", "model": "company"}, "138": {"pk": 138, "app": "companies", "model": "contactperson"}, "139": {"pk": 139, "app": "companies", "model": "hierarchyversion"}, "140": {"pk": 140, "app": "companies", "model": "organizationhistory"}, "141": {"pk": 141, "app": "companies", "model": "salescontactperson"}, "142": {"pk": 142, "app": "contracts", "model": "contract"}, "143": {"pk": 143, "app": "contracts", "model": "contractcreationreport"}, "144": {"pk": 144, "app": "contracts", "model": "contractperiod"}, "145": {"pk": 145, "app": "contracts", "model": "customer"}, "146": {"pk": 146, "app": "contracts", "model": "customerdiscount"}, "147": {"pk": 147, "app": "contracts", "model": "customerexternalids"}, "148": {"pk": 148, "app": "contracts", "model": "customerissues"}, "149": {"pk": 149, "app": "contracts", "model": "customerissuetype"}, "150": {"pk": 150, "app": "contracts", "model": "customertoban"}, "151": {"pk": 151, "app": "contracts", "model": "device"}, "152": {"pk": 152, "app": "contracts", "model": "documentvalidation"}, "153": {"pk": 153, "app": "contracts", "model": "documentvalidationreminder"}, "154": {"pk": 154, "app": "contracts", "model": "orderedcustomer"}, "155": {"pk": 155, "app": "contracts", "model": "rechargepaymentdata"}, "156": {"pk": 156, "app": "contracts", "model": "satisfactionguaranteesettings"}, "157": {"pk": 157, "app": "contracts", "model": "simcard"}, "158": {"pk": 158, "app": "contracts", "model": "subscription"}, "159": {"pk": 159, "app": "contracts", "model": "subscriptionbarring"}, "160": {"pk": 160, "app": "contracts", "model": "subscriptionbillingsuspension"}, "161": {"pk": 161, "app": "contracts", "model": "subscriptioncallforward"}, "162": {"pk": 162, "app": "contracts", "model": "subscriptioncreditshareuser"}, "163": {"pk": 163, "app": "contracts", "model": "subscriptiondiscount"}, "164": {"pk": 164, "app": "contracts", "model": "subscriptionnetworkservice"}, "165": {"pk": 165, "app": "contracts", "model": "subscriptionpackage"}, "166": {"pk": 166, "app": "contracts", "model": "subscriptionpackageservice"}, "167": {"pk": 167, "app": "contracts", "model": "subscriptionpackageserviceattribute"}, "168": {"pk": 168, "app": "contracts", "model": "subscriptionservice"}, "169": {"pk": 169, "app": "contracts", "model": "survey"}, "170": {"pk": 170, "app": "contracts", "model": "balancetransferpin"}, "171": {"pk": 171, "app": "contracts", "model": "contractsoption"}, "172": {"pk": 172, "app": "invoices", "model": "activepaymentplan"}, "173": {"pk": 173, "app": "invoices", "model": "invoice"}, "174": {"pk": 174, "app": "invoices", "model": "invoicepaymentdata"}, "175": {"pk": 175, "app": "invoices", "model": "paymentplan"}, "176": {"pk": 176, "app": "invoices", "model": "paymentplanbatch"}, "177": {"pk": 177, "app": "invoices", "model": "invoicesoption"}, "178": {"pk": 178, "app": "tasks", "model": "task"}, "179": {"pk": 179, "app": "documentumupload", "model": "contractfiles"}, "180": {"pk": 180, "app": "number_stock", "model": "batch"}, "181": {"pk": 181, "app": "number_stock", "model": "msisdn"}, "182": {"pk": 182, "app": "number_stock", "model": "resourcereservation"}, "183": {"pk": 183, "app": "number_stock", "model": "sim"}, "184": {"pk": 184, "app": "number_stock", "model": "simorderoption"}, "185": {"pk": 185, "app": "number_stock", "model": "starterkit"}, "186": {"pk": 186, "app": "porting", "model": "networkoperator"}, "187": {"pk": 187, "app": "porting", "model": "portingrequest"}, "188": {"pk": 188, "app": "state_cache", "model": "contract"}, "189": {"pk": 189, "app": "ordered_contracts", "model": "failedorder"}, "190": {"pk": 190, "app": "ordered_contracts", "model": "orderedarticle"}, "191": {"pk": 191, "app": "ordered_contracts", "model": "orderedcollateral"}, "192": {"pk": 192, "app": "ordered_contracts", "model": "orderedcontract"}, "193": {"pk": 193, "app": "ordered_contracts", "model": "orderedcustomer"}, "194": {"pk": 194, "app": "ordered_contracts", "model": "orderedcustomerexternalids"}, "195": {"pk": 195, "app": "ordered_contracts", "model": "ordereddevice"}, "196": {"pk": 196, "app": "ordered_contracts", "model": "orderedsimcard"}, "197": {"pk": 197, "app": "ordered_contracts", "model": "orderedsubscription"}, "198": {"pk": 198, "app": "ordered_contracts", "model": "orderrequest"}, "199": {"pk": 199, "app": "ordered_contracts", "model": "salesinformation"}, "200": {"pk": 200, "app": "alyssa", "model": "bankdetails"}, "201": {"pk": 201, "app": "alyssa", "model": "filenetrequestfailed"}, "202": {"pk": 202, "app": "alyssa", "model": "flow"}, "203": {"pk": 203, "app": "alyssa", "model": "ocuser"}, "204": {"pk": 204, "app": "alyssa", "model": "order"}, "205": {"pk": 205, "app": "alyssa", "model": "alyssaoptiongroup"}, "206": {"pk": 206, "app": "alyssa", "model": "channeloffer"}, "207": {"pk": 207, "app": "alyssa", "model": "devicemodel"}, "208": {"pk": 208, "app": "alyssa", "model": "devicevariant"}, "209": {"pk": 209, "app": "alyssa", "model": "discount"}, "210": {"pk": 210, "app": "alyssa", "model": "indirectdevicemodel"}, "211": {"pk": 211, "app": "alyssa", "model": "ocpromocampaign"}, "212": {"pk": 212, "app": "alyssa", "model": "subscriptionvariant"}, "213": {"pk": 213, "app": "transactions", "model": "payment"}, "214": {"pk": 214, "app": "transactions", "model": "transaction"}, "215": {"pk": 215, "app": "transactions", "model": "transactionitem"}, "216": {"pk": 216, "app": "transactions", "model": "salesinvoice"}, "217": {"pk": 217, "app": "transactions", "model": "paymentreceipt"}, "218": {"pk": 218, "app": "captcha", "model": "captchastore"}, "219": {"pk": 219, "app": "contractsign", "model": "contractpdf"}, "220": {"pk": 220, "app": "django_celery_results", "model": "taskresult"}, "221": {"pk": 221, "app": "celerycommon", "model": "celerytask"}, "222": {"pk": 222, "app": "documentarchive", "model": "contractfile"}, "223": {"pk": 223, "app": "documentarchive", "model": "filenetcontractnumber"}, "224": {"pk": 224, "app": "ss_billing", "model": "invoicemodification"}, "225": {"pk": 225, "app": "ss_creditshare", "model": "creditshareevent"}, "226": {"pk": 226, "app": "ss_creditshare", "model": "creditsharetransaction"}, "227": {"pk": 227, "app": "ss_creditshare", "model": "creditsharelog"}, "228": {"pk": 228, "app": "ss_options", "model": "optionmodification"}, "229": {"pk": 229, "app": "webshop", "model": "orderid"}, "230": {"pk": 230, "app": "csapi", "model": "csservicelog"}, "231": {"pk": 231, "app": "livesettings", "model": "ordersoption"}, "232": {"pk": 232, "app": "livesettings", "model": "contractsoption"}, "233": {"pk": 233, "app": "livesettings", "model": "inventoryoption"}, "234": {"pk": 234, "app": "livesettings", "model": "taxoption"}, "235": {"pk": 235, "app": "opstool", "model": "orders"}, "236": {"pk": 236, "app": "authentication_api", "model": "authtoken"}, "237": {"pk": 237, "app": "contracts", "model": "address"}, "238": {"pk": 238, "app": "livesettings", "model": "volumeservicesoption"}, "239": {"pk": 239, "app": "biometric", "model": "biometricrequest"}, "240": {"pk": 240, "app": "contracts", "model": "qualitycontrol"}, "241": {"pk": 241, "app": "biometric", "model": "biometricresponse"}, "242": {"pk": 242, "app": "companies", "model": "coordinator"}, "243": {"pk": 243, "app": "billing", "model": "billingaccounttype"}, "244": {"pk": 244, "app": "contracts", "model": "billingaccount"}, "245": {"pk": 245, "app": "offers", "model": "discountplanvolumebase"}, "246": {"pk": 246, "app": "offers", "model": "discountplanvolumethreshold"}, "247": {"pk": 247, "app": "livesettings", "model": "mnpservicesoption"}, "248": {"pk": 248, "app": "products", "model": "subscriptiontypecreditlimit"}, "252": {"pk": 252, "app": "livesettings", "model": "biometricverificattionservicesoption"}, "257": {"pk": 257, "app": "contracts", "model": "balancetransferpinhistory"}, "261": {"pk": 261, "app": "livesettings", "model": "otpservicesoption"}, "266": {"pk": 266, "app": "otp", "model": "otp"}, "271": {"pk": 271, "app": "products", "model": "sdpidseries"}, "276": {"pk": 276, "app": "silk", "model": "profile"}, "281": {"pk": 281, "app": "silk", "model": "request"}, "286": {"pk": 286, "app": "silk", "model": "response"}, "291": {"pk": 291, "app": "silk", "model": "sqlquery"}, "296": {"pk": 296, "app": "password_history", "model": "passwordhistory"}, "301": {"pk": 301, "app": "password_history", "model": "userpasswordhistoryconfig"}, "306": {"pk": 306, "app": "products", "model": "messagemanagerconfiguration"}, "311": {"pk": 311, "app": "number_stock", "model": "simsequence"}, "313": {"pk": 313, "app": "contracts", "model": "casemanagementflag"}, "316": {"pk": 316, "app": "contracts", "model": "modelinstancecasemanagementflags"}},
+                DATE_FORMAT = "%Y-%m-%d",
+                TIME_FORMAT = "%H:%M:%S",
+                DATETIME_FORMAT = "%Y-%m-%d %H:%M:%S";
+            
+                var customer_issues = [];
+            
+            
+                var msisdn_length = 0;
+            
+        </SCRIPT>
+     <!-- jQuery, jQuery-UI -->         
+<SCRIPT src="CSR%20Toolbox%20-_files/jquery.min.js" type="text/javascript"></SCRIPT>
+         
+<SCRIPT src="CSR%20Toolbox%20-_files/jquery.simulate.min.js" type="text/javascript"></SCRIPT>
+         
+<SCRIPT src="CSR%20Toolbox%20-_files/jquery.ba-tinypubsub.min.js" type="text/javascript"></SCRIPT>
+         
+<SCRIPT src="CSR%20Toolbox%20-_files/select2.min.js"></SCRIPT>
+         
+<SCRIPT src="CSR%20Toolbox%20-_files/jquery-ui.min.js" type="text/javascript"></SCRIPT>
+                             
+<SCRIPT src="CSR%20Toolbox%20-_files/jquery.autocomplete.min.js" type="text/javascript"></SCRIPT>
+             
+<SCRIPT src="CSR%20Toolbox%20-_files/address-validator.min.js" type="text/javascript"></SCRIPT>
+             <!-- Grappelli Minified.
+                 Inclusion of this file removes the '$' and 'jQuery' variables because it calls
+                 the $.noConflict(true). See https://api.jquery.com/jquery.noconflict/ for more
+                 details.
+            --> 
+            
+<SCRIPT src="CSR%20Toolbox%20-_files/grappelli.min.js" type="text/javascript"></SCRIPT>
+                 
+<SCRIPT src="CSR%20Toolbox%20-_files/customer_issues_popup.js" type="text/javascript" charset="utf-8"></SCRIPT>
+         
+<SCRIPT src="CSR%20Toolbox%20-_files/invoices.js" type="text/javascript"></SCRIPT>
+         
+<SCRIPT src="CSR%20Toolbox%20-_files/companies.js" type="text/javascript"></SCRIPT>
+         
+<SCRIPT type="text/javascript" charset="utf-8">
+            (function($) {
+                $(document).ready(function() {
+                    $("#grp-navigation .grp-collapse").grp_collapsible();
+
+                     checkTabSizes();
+                     $(window).resize(checkTabSizes);
+                     function checkTabSizes(){
+                        var width = 0;
+                        $('#contract_admin_services_content .newtlet-buttons-menu li').each(function() {
+                            width += $(this).outerWidth();
+                        });
+                        if( $("#contract_admin_services_content .newtlet-buttons-menu").width() < width+10 ) {
+                            $('#contract_admin_services_content').addClass('two-rowed');
+                        } else {
+                            $('#contract_admin_services_content').removeClass('two-rowed');
+                        }
+                     }
+                });
+            })(grp.jQuery);
+        </SCRIPT>
+         <!-- EXTRAHEAD -->             
+<SCRIPT type="text/javascript">
+        (function($) {
+            $(window).load(function(){ $('#id_username').focus(); });
+        })(grp.jQuery);
+    </SCRIPT>
+ 
+<META name="GENERATOR" content="MSHTML 11.00.10570.1001"></HEAD>
+<BODY class="grp-login">     
+<DIV id="grp-container"><!-- HEADER -->         <HEADER id="grp-header"><!-- NAVIGATION --> 
+                
+<DIV id="grp-navigation">
+<DIV class="bangla-logo-container" id="grp-admin-title"><A href="https://customercare.banglalink.net/"><IMG 
+title="Banglalink" class="bangla-logo" alt="Banglalink" src="CSR%20Toolbox%20-_files/main_logo.png"></A></DIV> 
+                                        <!-- Nav-Global -->                      
+       
+<SCRIPT type="text/javascript">
+    django.jQuery(document).ready(function(e){
+
+        var tab = 'auth';
+        var pmsisdn = '';
+        var pcid = '';
+
+        function addGetRequestInformation() {
+
+          var imenu_url = django.jQuery("#imenu_link").data('baseurl');
+          var tickets_url = django.jQuery('#tickets a').data('baseurl');
+
+          try{
+              var username = 'AnonymousUser';
+              imenu_url += "&user="+username;
+          }catch(e){ }
+
+          if (tab == 'contract_view'){
+              try{
+                  pmsisdn = django.jQuery('#contract_msisdn').text().replace(/^0/, '41');
+                  imenu_url += "&msisdn="+pmsisdn;
+              }catch(e){}
+              try{
+                  pmsisdn = django.jQuery('#contract_msisdn').text().replace(/^0/, '41');
+                  tickets_url += "msisdn="+pmsisdn;
+              }catch(e){}
+              try{
+                  pcid = django.jQuery('#contract_legal_customer_id').text();
+                  pcid = pcid.split(/[^0-9]/)[0];
+                  imenu_url += "&cid="+pcid;
+              }catch(e){}
+              try{
+                  var ban = django.jQuery('#contract_legal_customer_ban').text();
+                  imenu_url += "&ban="+ban;
+              }catch(e){}
+          }
+
+          if (tab == 'customer_view' || tab == 'company_view'){
+              try{
+                  pcid = '';
+                  imenu_url += "&cid="+pcid;
+              }catch(e){}
+              try{
+                  pmsisdn = django.jQuery('#customer_msisdn_0').text();
+                  pmsisdn = pmsisdn.split(/[^0-9]/)[0];
+                  imenu_url += "&msisdn="+pmsisdn;
+              }catch(e){}
+              try{
+                  pmsisdn = django.jQuery('#customer_msisdn_0').text();
+                  pmsisdn = pmsisdn.split(/[^0-9]/)[0];
+                  tickets_url += "msisdn="+pmsisdn;
+              }catch(e){}
+              try{
+                  var ban = django.jQuery('#customer_ban').text();
+                  imenu_url += "&ban="+ban;
+              }catch(e){}
+          }
+
+          django.jQuery("#imenu_link").attr("href", imenu_url);
+          django.jQuery("#tickets a").attr("href", tickets_url);
+        }
+
+        addGetRequestInformation();
+
+        django.jQuery.datepicker.setDefaults({
+            yearRange: "1900:" + ((new Date).getFullYear()+30),
+            changeMonth: true,
+            changeYear: true,
+            showButtonPanel: true,
+            dateFormat: 'dd.mm.yy'
+        });
+
+        // Try filling relevant get request data on deferred tab clicks.
+        django.jQuery('.deferred_tab button[type="submit"]').on('click', function(e) {
+          django.jQuery(document).ready(function(){
+            setTimeout(function(){
+              addGetRequestInformation();
+            }, 3000);
+          })
+        });
+
+        if(window.location.hash){
+            try{
+                var anchor = window.location.hash.replace("#", "").split("_");
+                var tab = anchor[1];
+                var newtlet = anchor[0];
+                showPanel(newtlet, tab);
+            }catch(e){}
+        }
+
+        // close external tools when clicked outside
+        django.jQuery(document).mouseup(function (e) {
+            var container = django.jQuery("#external_tools_dropdown");
+            if (!container.is(e.target) && container.has(e.target).length === 0) {
+                container.hide();
+            }
+        });
+
+        django.jQuery(document).bind("mouseup", function(e){
+            var container = django.jQuery(".grp-user-options");
+            if (!container.is(e.target) && container.has(e.target).length === 0) {
+                django.jQuery(".grp-user-options").parent(".grp-collapse").removeClass("grp-open").addClass("grp-closed");
+            }
+        });
+
+
+  });
+</SCRIPT>
+ 
+<DIV>
+<DIV class="clear tab_bar grp-context-navigation">
+<DIV class="l-2c-fluid l-d-6">
+<DIV class="c-2">
+<UL class="tabs">
+  <LI id="home"><A href="https://customercare.banglalink.net/">                  
+            Home                          </A>                     </LI>
+  <LI><A href="https://customercare.banglalink.net/admin_marilyn/">              
+                CSR tb Admin                         </A>                     
+  </LI>
+  <LI><A href="https://customercare.banglalink.net/admin_products/">             
+                 Product catalog                         </A>                    
+   </LI>
+  <LI><A href="https://customercare.banglalink.net/admin/biometric/">            
+                  Biometric                         </A>                     
+  </LI>
+  <LI id="quality-control"><A href="https://customercare.banglalink.net/quality_control">Quality 
+  Control</A>                      </LI>
+  <LI><A href="https://customercare.banglalink.net/send_sms/">Send SMS</A>       
+                </LI>
+  <LI><A href="https://customercare.banglalink.net/mnp_dashboard/">MNP 
+  Dashboard</A>                      </LI></UL></DIV>
+<DIV class="c-1">
+<DIV id="iframe_tip" style="display: none;"><A><I class="icon-remove clickable" 
+onclick="django.jQuery('#iframe_tip').toggle()"></I></A>                     
+<DIV><A id="iframe_tip_link" href="https://customercare.banglalink.net/auth/login/?next=https%3A//customercare.banglalink.net/admin/contracts/contract/%3Fq%3Dparam1#" 
+target="_blank">If external link does not open, click here to open link in new 
+window. </A></DIV></DIV></DIV></DIV></DIV></DIV></DIV><!-- CONTEXT NAVIGATION --> 
+                
+<DIV id="grp-context-navigation"><NAV id="grp-breadcrumbs"><HEADER style="display: none;">
+<H1>Breadcrumbs</H1></HEADER>                                                    
+ 
+<UL>
+  <LI><A href="https://customercare.banglalink.net/">Home</A></LI></UL></NAV><NAV 
+id="grp-page-tools"><HEADER style="display: none;">
+<H1>Page Tools</H1></HEADER>                                             
+</NAV></DIV></HEADER>     
+<DIV title="" id="customerissue" style="display: none;">
+<P>This is the default dialog which is useful for displaying information. The 
+dialog window can be moved, resized and closed with the 'ok' button.</P></DIV><!-- CONTENT --> 
+    <ARTICLE id="grp-content"><!-- MESSAGES -->                         <!-- CONTENT TITLE --> 
+            <HEADER id="grp-content-title"></HEADER>             <!-- CONTENT-CONTAINER --> 
+            
+<DIV id="grp-content-container">
+<DIV class="g-d-c g-d-10 g-centered">
+<FORM action="" method="post"><INPUT name="csrfmiddlewaretoken" type="hidden" value="tLLH0LvgRNmVmnrmFeMGVQQJINtEbAnyTnAR06FQtFP3UNYytn9RXQpoSCYxdTvN"> 
+            
+<FIELDSET class="grp-module grp-module-login">
+<H1><IMG alt="Marilyn" src="CSR%20Toolbox%20-_files/main_logo.png">              
+       <SPAN class="grp-current-page">Login</SPAN></H1>
+<DIV class="grp-module">
+<DIV class="grp-row"><LABEL class="required" for="id_username">Username:</LABEL> 
+                        <INPUT name="username" id="id_username" type="text">     
+                                        </DIV>
+<DIV class="grp-row grp-connected"><LABEL class="required" 
+for="id_password">Password:</LABEL>                         <INPUT name="password" id="id_password" type="password"> 
+                        <INPUT name="this_is_the_login_form" type="hidden" value="1">                    
+     <INPUT name="next" type="hidden" value="https://customercare.banglalink.net/admin/contracts/contract/?q=param1"> 
+                                                                    </DIV>
+<DIV class="grp-row">
+<P class="grp-description" style="line-height: 13px; font-size: 12px; margin-top: 2px;"><A 
+href="https://customercare.banglalink.net/auth/password_reset/">Forgotten your 
+password or username?</A></P></DIV></DIV></FIELDSET>
+<DIV class="grp-module grp-submit-row">
+<UL>
+  <LI><INPUT class="grp-button grp-default" type="submit" value="Log in"></LI></UL></DIV></FORM></DIV></DIV></ARTICLE><!-- FOOTER --> 
+            </DIV><FOOTER id="copyright"><IMG alt="Qvantel" src="CSR%20Toolbox%20-_files/qvantel_logo.png"> 
+      <SPAN>Banglalink--Live.0 – Qvantel Oy 2020 ©</SPAN>     </FOOTER>         
+<SCRIPT src="CSR%20Toolbox%20-_files/order_request.js" type="text/javascript"></SCRIPT>
+     
+<SCRIPT src="CSR%20Toolbox%20-_files/telepin.js"></SCRIPT>
+     
+<SCRIPT src="CSR%20Toolbox%20-_files/main-5a9b9671cc364f8721d0.js" type="text/javascript"></SCRIPT>
+ </BODY></HTML>

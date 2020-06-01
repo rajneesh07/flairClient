@@ -3,7 +3,7 @@
     "FLAIR_SERVER_URL": "http://localhost:7071",
     "SERVER_TIMEOUT_MS": 20000,
     "CRM_TIMEOUT_MS": 10000,
-    "BASE_CRM_URL": "./crm.html",
+    "BASE_CRM_URL": "./BLCRM.html",
     "ALLOW_OUTBOUND_DIALING": true,
     "AGENT_STATE_POLLING_INTERVAL_MS": 1000,
     "INTERNAL_NUMBERS_MAX_LENGTH": 6,
@@ -16,10 +16,6 @@
         {
             "label": "Finnacle",
             "href": "http://login.salesforce.com"
-        },
-        {
-            "label": "Google",
-            "href": "http://google.com"
         }
     ],
     "QUESS": {

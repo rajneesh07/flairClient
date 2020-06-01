@@ -48,6 +48,7 @@ export default {
   },
   computed: {
     defaultUrl() {
+      console.log("Base CRM URL = ", this.$store.getters["session/getConfig"].BASE_CRM_URL)
       return this.$store.getters["session/getConfig"].BASE_CRM_URL;
     },
     autoShowWidget() {
